@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="22.794">
+    <testcase classname="Social Media Application." name="Login Page." time="21.775">
+        <system-out><![CDATA[Given User Launch The Application...........................................passed
+When User print The Banner..................................................passed
+And Enter The Username......................................................passed
+And Enter The Password......................................................passed
+And Click The Login It Verify The User Take Scs.............................passed
+And User Navigate Back Creates New Account..................................passed
+And Enter The Firstname.....................................................passed
+And Enter The Lastname......................................................passed
+And Enter The Email.........................................................passed
+And Select Birthday From Dropdown...........................................passed
+And Select Birthmonth From Dropdown.........................................passed
+And Select Birthyear From Dropdown..........................................passed
+And Click The Gender........................................................passed
+And Click Create Account....................................................passed
+Then Take Scs Of The Error Page.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

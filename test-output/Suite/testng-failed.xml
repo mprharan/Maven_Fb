@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="both"/>
+        <include name="scs"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.testng.Facebook_Testng">
+        <methods>
+          <include name="Print_Banner"/>
+          <include name="Password1"/>
+          <include name="Birth_Day"/>
+          <include name="Email"/>
+          <include name="Scs"/>
+          <include name="New_Account"/>
+          <include name="Birth_Month"/>
+          <include name="Create_Account"/>
+          <include name="Lastame"/>
+          <include name="Birth_Year"/>
+          <include name="Gender"/>
+          <include name="Scs1"/>
+          <include name="Firstname"/>
+          <include name="Password"/>
+          <include name="Username"/>
+        </methods>
+      </class> <!-- com.testng.Facebook_Testng -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

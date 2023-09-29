@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="15" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-17T21:56:28 IST" name="Default suite" finished-at="2022-11-17T21:57:59 IST" duration-ms="90993">
+    <groups>
+      <group name="scs">
+        <method signature="Facebook_Testng.Scs1()[pri:15, instance:com.testng.Facebook_Testng@3427b02d]" name="Scs1" class="com.testng.Facebook_Testng"/>
+      </group> <!-- scs -->
+      <group name="create">
+        <method signature="Facebook_Testng.Birth_Day()[pri:10, instance:com.testng.Facebook_Testng@3427b02d]" name="Birth_Day" class="com.testng.Facebook_Testng"/>
+        <method signature="Facebook_Testng.Birth_Month()[pri:11, instance:com.testng.Facebook_Testng@3427b02d]" name="Birth_Month" class="com.testng.Facebook_Testng"/>
+        <method signature="Facebook_Testng.Birth_Year()[pri:12, instance:com.testng.Facebook_Testng@3427b02d]" name="Birth_Year" class="com.testng.Facebook_Testng"/>
+        <method signature="Facebook_Testng.Create_Account()[pri:14, instance:com.testng.Facebook_Testng@3427b02d]" name="Create_Account" class="com.testng.Facebook_Testng"/>
+        <method signature="Facebook_Testng.Email()[pri:8, instance:com.testng.Facebook_Testng@3427b02d]" name="Email" class="com.testng.Facebook_Testng"/>
+        <method signature="Facebook_Testng.Firstname()[pri:6, instance:com.testng.Facebook_Testng@3427b02d]" name="Firstname" class="com.testng.Facebook_Testng"/>
+        <method signature="Facebook_Testng.Gender()[pri:13, instance:com.testng.Facebook_Testng@3427b02d]" name="Gender" class="com.testng.Facebook_Testng"/>
+        <method signature="Facebook_Testng.Lastame()[pri:7, instance:com.testng.Facebook_Testng@3427b02d]" name="Lastame" class="com.testng.Facebook_Testng"/>
+        <method signature="Facebook_Testng.Password1()[pri:9, instance:com.testng.Facebook_Testng@3427b02d]" name="Password1" class="com.testng.Facebook_Testng"/>
+      </group> <!-- create -->
+      <group name="login">
+        <method signature="Facebook_Testng.Browser_Launch()[pri:0, instance:com.testng.Facebook_Testng@3427b02d]" name="Browser_Launch" class="com.testng.Facebook_Testng"/>
+        <method signature="Facebook_Testng.New_Account()[pri:5, instance:com.testng.Facebook_Testng@3427b02d]" name="New_Account" class="com.testng.Facebook_Testng"/>
+        <method signature="Facebook_Testng.Password()[pri:3, instance:com.testng.Facebook_Testng@3427b02d]" name="Password" class="com.testng.Facebook_Testng"/>
+        <method signature="Facebook_Testng.Print_Banner()[pri:1, instance:com.testng.Facebook_Testng@3427b02d]" name="Print_Banner" class="com.testng.Facebook_Testng"/>
+        <method signature="Facebook_Testng.Scs()[pri:4, instance:com.testng.Facebook_Testng@3427b02d]" name="Scs" class="com.testng.Facebook_Testng"/>
+        <method signature="Facebook_Testng.Username()[pri:2, instance:com.testng.Facebook_Testng@3427b02d]" name="Username" class="com.testng.Facebook_Testng"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2022-11-17T21:56:28 IST" name="Default test" finished-at="2022-11-17T21:57:59 IST" duration-ms="90993">
+      <class name="com.testng.Facebook_Testng">
+        <test-method signature="Browser_Launch()[pri:0, instance:com.testng.Facebook_Testng@3427b02d]" started-at="2022-11-17T21:56:28 IST" name="Browser_Launch" finished-at="2022-11-17T21:56:56 IST" duration-ms="27596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Launch -->
+        <test-method signature="Print_Banner()[pri:1, instance:com.testng.Facebook_Testng@3427b02d]" started-at="2022-11-17T21:56:56 IST" name="Print_Banner" finished-at="2022-11-17T21:56:57 IST" duration-ms="1262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Print_Banner -->
+        <test-method signature="Username()[pri:2, instance:com.testng.Facebook_Testng@3427b02d]" started-at="2022-11-17T21:56:57 IST" name="Username" finished-at="2022-11-17T21:57:06 IST" duration-ms="8661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Username -->
+        <test-method signature="Password()[pri:3, instance:com.testng.Facebook_Testng@3427b02d]" started-at="2022-11-17T21:57:06 IST" name="Password" finished-at="2022-11-17T21:57:06 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Password -->
+        <test-method signature="Scs()[pri:4, instance:com.testng.Facebook_Testng@3427b02d]" started-at="2022-11-17T21:57:06 IST" name="Scs" finished-at="2022-11-17T21:57:20 IST" duration-ms="14355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scs -->
+        <test-method signature="New_Account()[pri:5, instance:com.testng.Facebook_Testng@3427b02d]" started-at="2022-11-17T21:57:20 IST" name="New_Account" finished-at="2022-11-17T21:57:26 IST" duration-ms="5512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- New_Account -->
+        <test-method signature="Firstname()[pri:6, instance:com.testng.Facebook_Testng@3427b02d]" started-at="2022-11-17T21:57:26 IST" name="Firstname" finished-at="2022-11-17T21:57:36 IST" duration-ms="10043" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@name='firstname']"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SONY-PC', ip: '192.168.29.188', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50278}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 75114eaa261a53302f595a8fa445631c
+*** Element info: {Using=xpath, value=//*[@name='firstname']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@name='firstname']"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SONY-PC', ip: '192.168.29.188', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50278}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 75114eaa261a53302f595a8fa445631c
+*** Element info: {Using=xpath, value=//*[@name='firstname']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.testng.Facebook_Testng.Firstname(Facebook_Testng.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firstname -->
+        <test-method signature="Lastame()[pri:7, instance:com.testng.Facebook_Testng@3427b02d]" started-at="2022-11-17T21:57:36 IST" name="Lastame" finished-at="2022-11-17T21:57:42 IST" duration-ms="5702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lastame -->
+        <test-method signature="Email()[pri:8, instance:com.testng.Facebook_Testng@3427b02d]" started-at="2022-11-17T21:57:42 IST" name="Email" finished-at="2022-11-17T21:57:42 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email -->
+        <test-method signature="Password1()[pri:9, instance:com.testng.Facebook_Testng@3427b02d]" started-at="2022-11-17T21:57:42 IST" name="Password1" finished-at="2022-11-17T21:57:45 IST" duration-ms="3169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Password1 -->
+        <test-method signature="Birth_Day()[pri:10, instance:com.testng.Facebook_Testng@3427b02d]" started-at="2022-11-17T21:57:45 IST" name="Birth_Day" finished-at="2022-11-17T21:57:49 IST" duration-ms="3867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Birth_Day -->
+        <test-method signature="Birth_Month()[pri:11, instance:com.testng.Facebook_Testng@3427b02d]" started-at="2022-11-17T21:57:49 IST" name="Birth_Month" finished-at="2022-11-17T21:57:52 IST" duration-ms="3220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Birth_Month -->
+        <test-method signature="Birth_Year()[pri:12, instance:com.testng.Facebook_Testng@3427b02d]" started-at="2022-11-17T21:57:52 IST" name="Birth_Year" finished-at="2022-11-17T21:57:53 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Birth_Year -->
+        <test-method signature="Gender()[pri:13, instance:com.testng.Facebook_Testng@3427b02d]" started-at="2022-11-17T21:57:53 IST" name="Gender" finished-at="2022-11-17T21:57:53 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gender -->
+        <test-method signature="Create_Account()[pri:14, instance:com.testng.Facebook_Testng@3427b02d]" started-at="2022-11-17T21:57:53 IST" name="Create_Account" finished-at="2022-11-17T21:57:56 IST" duration-ms="3158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Account -->
+        <test-method signature="Scs1()[pri:15, instance:com.testng.Facebook_Testng@3427b02d]" started-at="2022-11-17T21:57:56 IST" name="Scs1" finished-at="2022-11-17T21:57:59 IST" duration-ms="2913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scs1 -->
+      </class> <!-- com.testng.Facebook_Testng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
